@@ -4,7 +4,8 @@ Project Overview
 This project is related to the development of a chess engine by harnessing the capabilities of machine learning. The cornerstone of this approach lies in three key components:
 
 # Encoder-Only Transformer: 
-![image](https://github.com/IM07813/MCTS-UCB-Transformer-Ensemble/assets/119739278/0a869f32-edaa-41c9-9d97-6f0e6bc3eae3)
+![image](https://github.com/IM07813/MCTS-UCB-Transformer-Ensemble/assets/119739278/40e6fed0-7ac6-4953-9707-12028bf36025)
+
 
 This tailored transformer architecture excels at processing chess board representations in FEN (Forsyth-Edwards Notation) format. It leverages the capabilities of sequential modeling and attention mechanisms to predict game outcomes (white win, black win, or draw) along with their corresponding probabilities.
 Encoder-Only Transformer Model: 
@@ -29,7 +30,8 @@ This potent search algorithm strategically navigates the game tree, guided by th
 
 MCTS employs the following core functions to achieve optimal exploration and exploitation during the search process:
 
-![Screenshot from 2024-04-03 07-11-04](https://github.com/IM07813/MCTS-UCB-Transformer-Ensemble/assets/119739278/f2c19923-328e-413f-8ffd-495441fb6f36)
+![image](https://github.com/IM07813/MCTS-UCB-Transformer-Ensemble/assets/119739278/a3d18d88-6a3b-4cdd-9542-3241aa408d65)
+
 
 # Selection: 
 This function meticulously selects the most promising node in the tree based on a combination of the transformer's predicted outcome and the Upper Confidence Bound 1 (UCB1) value. The selection process balances exploiting currently well-performing moves with exploring potentially better options.
