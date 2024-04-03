@@ -1,0 +1,29 @@
+{
+  "games": [
+    {
+      "board": "2R5/4bppk/1p1p4/5R1P/4PQ2/5P2/r4q1P/7K w - - 5 50",
+      "turn": "w",
+      "result": "1-0"
+    },
+    {
+      "board": "5rk1/pp4pp/4p3/2R3Q1/3n4/6qr/P1P2PPP/5RK1 w - - 2 24",
+      "turn": "b",
+      "result": "0-1"
+    },
+    {
+      "board": "rnbqkbnr/3p4/4p1pp/1Bp1Np2/p4B1P/2N1P3/PPP2PP1/R2QK2R w KQkq - 0 10",
+      "turn": "w",
+      "result": "1-0"
+    },
+    {
+      "board": "3R1r1k/1p3pnp/2p4N/8/2b5/6P1/5P1P/4qBK1 w - - 2 31",
+      "turn": "b",
+      "result": "0-1"
+    },
+    {
+      "board": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "turn": "w",
+      "result": "1/2-1/2"
+    }
+  ]
+}
