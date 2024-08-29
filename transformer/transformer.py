@@ -14,7 +14,6 @@ from scipy.special import softmax
 
 # --- Data Loading and Preprocessing ---
 def load_and_preprocess_data():
-    # Load dataset (replace with your dataset loading logic)
     df = pd.read_json('/home/im07813/Desktop/checkit/training_dataset.json')
     df = pd.json_normalize(df['games'])
 
@@ -89,7 +88,6 @@ class TransformerBlock(tf.keras.layers.Layer):
         return self.layernorm2(out1 + ffn_output)
 
 
-# --- Model Definition ---
 class ChessTransformer:
     def __init__(self, board_tokenizer, turn_tokenizer, le):
         self.model = None 
@@ -161,7 +159,7 @@ if __name__ == "__main__":
     #model.train(features, labels)
 
     # Save (uncomment if needed)
-    #model.save("/home/im07813/Desktop/chessgpt/AI/transformer/transformer.h5")  
+    #model.save("/home/im07813/Desktop/chess/AI/transformer/transformer.h5")  
 
     # Load 
     model.load("/home/im07813/Desktop/chessgpt/AI/transformer/transformer.h5")  
